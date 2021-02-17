@@ -1,5 +1,5 @@
 {
-  "name": "@tapped/react-hooks-collection",
+  "name": "@tappedlabs/react-hooks-collection",
   "version": "1.0.0",
   "description": "Collection of handy React Hooks",
   "main": "index.js",
