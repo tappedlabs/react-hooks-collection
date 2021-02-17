@@ -1,0 +1,20 @@
+{
+  "name": "@tapped/react-hooks-collection",
+  "version": "1.0.0",
+  "description": "Collection of handy React Hooks",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tappedlabs/react-hooks-collection"
+  },
+  "author": "Appstract",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tappedlabs/react-hooks-collection/issues"
+  },
+  "homepage": "https://github.com/tappedlabs/react-hooks-collection#readme"
+}
