@@ -5,7 +5,7 @@ import useMountedState from './useMountedState';
 // axios hook that automatically cancels request
 // if the component is unmounted
 
-const useAxios = (url) => {
+const useAxios = (url, config = {}) => {
 
     const [loading, setLoading] = useMountedState(false);
     const [result, setResult] = useMountedState(null);
@@ -23,6 +23,7 @@ const useAxios = (url) => {
 
         axios.get(url, {
             cancelToken: source.token,
+            ...config
         }).then(response => {
             setResult(response.data);
             setLoading(false);
